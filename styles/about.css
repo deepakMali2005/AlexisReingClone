@@ -1,0 +1,30 @@
+.main .about-intro{
+    text-align: center;
+    font-weight: 200;
+    margin-top: 150px;
+}
+
+.about-section{
+    width: 1500px;
+    min-height: 600px;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-template-rows: 1fr;
+    gap: 100px;
+}
+
+.sub-section1{
+    background-image: url("../images/author.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-section2{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(100, 100, 101);
+    padding: 20px;
+}

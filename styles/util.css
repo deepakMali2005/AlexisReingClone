@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+hr{
+    width: 80vw;
+    margin: 50px auto;
+    color: black;
+    /* height: 1px; */
+    /* background-color: red; */
+    /* box-shadow: 0px 0px 1px; */
+    opacity: 0.2;
+
+}
+
+.hamburger-icon{
+    cursor: pointer;
+}
+
+.close-icon{
+    cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #af9f9f;
+}
+
